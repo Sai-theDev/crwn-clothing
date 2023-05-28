@@ -8,6 +8,6 @@ const Directory=({categories})=>{
          <CategoryItem key={category.id} category={category} />
         ))}
       </div>
-    );
+    )
 }
-export default Directory;
+export default Directory
